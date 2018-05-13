@@ -19,10 +19,6 @@ class TESTINGGROUNDS_API UChooseNextWayPoint : public UBTTaskNode
 
 protected:
 
-	void GetPatrolPoints();
-	void SetNextWaypoint();
-	void CycleWaypoints();
-
 	UPROPERTY(EditAnywhere, Category = "Blackboard")
 	struct FBlackboardKeySelector IndexKey;
 
